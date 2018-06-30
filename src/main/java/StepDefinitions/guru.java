@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-
+// This is Guru project
 public class guru {
 	WebDriver driver;
 	@Given("^Open the Chrome and launch the application$")
