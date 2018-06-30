@@ -1,0 +1,258 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 286025,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Tagged_Hooks.TaggedHooksLerningBefore()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verification of reset button with numbers of credential",
+        "description": "",
+        "id": "reset-functionality-on-login-page-of-application;verification-of-reset-button-with-numbers-of-credential;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 151308,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Tagged_Hooks.TaggedHooksLerningAfter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7805264824,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open the Chrome and launch the application",
+            "match": {
+              "location": "guru.openChrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 419242960,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter the \"User1\" and \"password1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "User1",
+                  "offset": 11
+                },
+                {
+                  "val": "password1",
+                  "offset": 23
+                }
+              ],
+              "location": "guru.enter_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130782265,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Reset the credential",
+            "match": {
+              "location": "guru.reset_the_credential()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 248494,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Tagged_Hooks.TaggedHooksLerningBefore()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verification of reset button with numbers of credential",
+        "description": "",
+        "id": "reset-functionality-on-login-page-of-application;verification-of-reset-button-with-numbers-of-credential;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 226370,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Tagged_Hooks.TaggedHooksLerningAfter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7009183989,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open the Chrome and launch the application",
+            "match": {
+              "location": "guru.openChrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 393000621,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter the \"User2\" and \"password2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "User2",
+                  "offset": 11
+                },
+                {
+                  "val": "password2",
+                  "offset": 23
+                }
+              ],
+              "location": "guru.enter_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105382592,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Reset the credential",
+            "match": {
+              "location": "guru.reset_the_credential()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 229135,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Tagged_Hooks.TaggedHooksLerningBefore()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verification of reset button with numbers of credential",
+        "description": "",
+        "id": "reset-functionality-on-login-page-of-application;verification-of-reset-button-with-numbers-of-credential;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 58469,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Tagged_Hooks.TaggedHooksLerningAfter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6751518714,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open the Chrome and launch the application",
+            "match": {
+              "location": "guru.openChrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 302829468,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter the \"User3\" and \"password3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "User3",
+                  "offset": 11
+                },
+                {
+                  "val": "password3",
+                  "offset": 23
+                }
+              ],
+              "location": "guru.enter_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79201881,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Reset the credential",
+            "match": {
+              "location": "guru.reset_the_credential()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Reset functionality on login page of Application",
+    "description": "",
+    "id": "reset-functionality-on-login-page-of-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/Adithya/eclipse-workspace/CUCUMBER_MAVEN/src/main/java/features/LoginCredentials.feature"
+  }
+]
